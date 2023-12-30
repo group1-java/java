@@ -1,0 +1,87 @@
+﻿body {
+    font-size: 14px;
+    background: url(../img/bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    }
+
+
+    h2 {
+        text-align: center;
+        font-size: 70px;
+        font-weight: 900;
+        width: 100%;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 3px rgb(124, 198, 248);
+        color: #072247;
+        font-family: sans-serif;
+    }
+
+    .navbar {
+        font-size: 18px;
+    }
+
+    .navbar-inverse {
+        background: #000000;
+        min-height: 60px;
+        padding-top: 5px;
+
+    }
+
+    .navbar-inverse .navbar-nav > .active > a {
+        background: #ffffff;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: 25px;
+        font-weight:900;
+        font-family: 'Open Sans';
+        letter-spacing: 2px;
+    }
+
+    .navbar-inverse :hover .navbar-brand:hover {
+        color: #ffffff;	
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+        font-family: 'Open Sans';
+    }
+
+    .navbar-inverse {
+        border-color: #D6D6D6;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: #ffffff;
+    }
+
+
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        color: lightblue;
+    }
+
+    .conus {
+        padding-top: 100px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+
+    }
+    
+    .conus h2 {
+        font-size: 70px;
+        font-family: 'Open Sans';
+    }
+    
+    .conus p {
+        font-size: 27px;
+        text-shadow: 3px 3px 3px #ababab;
+    }
+
+    .cnt {
+        width: 100%;
+        min-height: 350px;
+        border: 2px solid black;
+    }

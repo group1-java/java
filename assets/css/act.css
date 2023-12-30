@@ -1,0 +1,81 @@
+body {
+    font-size: 14px;
+    background: url(../img/bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    }
+    h2{
+        text-align: center;
+        font-size: 70px;
+        font-weight: 900;
+        width: 100%;
+        padding-top: 90px;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 3px rgb(124, 198, 248);
+        color: #072247;
+        font-family: 'Open Sans';
+    }
+
+    .navbar {
+    font-size: 18px;
+    }
+
+    .navbar-inverse {
+    background: #000000;
+    min-height: 60px;
+    padding-top: 5px;
+
+    }
+
+    .navbar-inverse .navbar-nav > .active > a {
+    background: #ffffff;
+    }
+
+    .navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight:900;
+    letter-spacing: 2px;
+    }
+    .navbar-inverse :hover .navbar-brand:hover {
+    color: #fff;	
+    }
+    .navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: 'Open Sans';
+    }
+    .navbar-inverse {
+    border-color: #D6D6D6;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ffffff;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: lightblue;
+    }
+
+    .navbar-toggle {
+    background-color: black;
+    }
+    .navbar-brand {
+        font-family:'Open Sans';
+        position: absolute;
+        color: #000000;
+        font-size: 35px;
+        font-weight:900;
+        text-decoration: none;
+    }
+    .navbar-brand1 {
+        font-family:'Open Sans';
+        color: #000000;
+        font-size: 35px;
+        font-weight:900;
+        text-decoration: none;
+    }
+
+    .pdf {
+        padding-bottom: 50px;
+        text-decoration: none;
+}
