@@ -26,6 +26,9 @@
         text-shadow: 3px 3px 3px rgb(124, 198, 248);
         color: #072247;
     }
+	h1:hover, h1:focus {
+    color: lightblue;
+    }
     .gallery {
         display: flex;
         flex-wrap: nowrap;

@@ -79,9 +79,9 @@
         font-size: 27px;
 		color: white;
 		font-weight: 600;
-		text-shadow: 3px 3px 3px #000;
-		-webkit-text-stroke-width: 0.2px;
-		-webkit-text-stroke-color: black;
+        text-shadow: 3px 3px 3px rgb(124, 198, 248);
+        color: #072247;
+		font-family: 'Open Sans';
     }
 
     .cnt {
