@@ -51,15 +51,18 @@ body {
     .head-last {
         text-align: center;
         width: 100%;
+		color: white;
+		font-weight: 900;
         padding-left: 50px;
         padding-right: 50px;
-        font-size:18px ;
+        font-size:20px ;
         margin-top: -10px;
-        text-shadow: 3px 3px 3px #ababab;
+        text-shadow: 3px 3px 3px #000;
+		-webkit-text-stroke-width: 0.2px;
+		-webkit-text-stroke-color: black;
     }
 
     .button-container {
-        margin-top: -80px;
         text-align: center;
     }
 
@@ -150,5 +153,19 @@ body {
         .head-main { 
             width: 100%;
             font-size: 20px;
+        }
+    }
+	
+    @media all and (max-width:700px) and (min-width:381px) {
+        .head-last { 
+            width: 100%;
+            font-size: 16px;
+        }
+    }
+
+    @media all and (max-width:381px) and (min-width:200px) {
+        .head-last { 
+            width: 100%;
+            font-size: 12px;
         }
     }
